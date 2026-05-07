@@ -7,6 +7,11 @@ export const projectsData = [
         role: 'Backend Developer',
         code: '',
         demo: '',
+        images: [
+            '/image/png/project1-1.png',
+            '/image/png/project1-2.png',
+            '/image/png/project1-3.png'
+        ],
     },
     {
         id: 2,
@@ -16,6 +21,11 @@ export const projectsData = [
         role: 'Full Stack Developer',
         code: '',
         demo: '',
+        images: [
+            '/image/png/project2-1.png',
+            '/image/png/project2-2.png',
+            '/image/png/project2-3.png'
+        ],
     },
     {
         id: 3,
@@ -25,6 +35,11 @@ export const projectsData = [
         code: '',
         role: 'Full Stack Developer',
         demo: '',
+        images: [
+            '/image/png/project3-1.png',
+            '/image/png/project3-2.png',
+            '/image/png/project3-3.png'
+        ],
     },
     {
         id: 4,
@@ -34,6 +49,11 @@ export const projectsData = [
         code: '',
         demo: '',
         role: 'Full Stack Developer',
+        images: [
+            '/image/png/project4-1.png',
+            '/image/png/project4-2.png',
+            '/image/png/project4-3.png'
+        ],
     }
 ];
 
