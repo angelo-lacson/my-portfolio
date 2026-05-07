@@ -25,7 +25,7 @@ function AboutSection() {
         <div className=" justify-center order-1 lg:order-2" style={{ display: "flex", alignItems: "center", }}>
           <Image
             src={personalData.profile}
-            width={520}
+            width={450}
             height={280}
             alt="Angelo Lacson"
             className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
