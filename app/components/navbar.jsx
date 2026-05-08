@@ -1,8 +1,36 @@
 // @flow strict
+"use client";
 import Link from "next/link";
-
+import { useEffect } from "react";
 
 function Navbar() {
+  useEffect(() => {
+    const handleSmoothScroll = (e) => {
+      const href = e.currentTarget.getAttribute('href');
+      if (href && href.startsWith('/#')) {
+        const elementId = href.substring(2);
+        const element = document.getElementById(elementId);
+        
+        if (element) {
+          // Element exists on current page, smooth scroll to it
+          e.preventDefault();
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        // If element doesn't exist, allow default navigation behavior
+      }
+    };
+
+    const links = document.querySelectorAll('a[href^="/#"]');
+    links.forEach(link => {
+      link.addEventListener('click', handleSmoothScroll);
+    });
+
+    return () => {
+      links.forEach(link => {
+        link.removeEventListener('click', handleSmoothScroll);
+      });
+    };
+  }, []);
   return (
     <nav className="bg-transparent">
       <div className="flex items-center justify-between py-5">
