@@ -1,58 +1,58 @@
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
+        name: 'ConnectWise — Unified IT Operations & Automation Platform',
+        description: "Worked as a Full-Stack & Platform Engineer on an IT operations platform for MSPs and internal IT teams. Contributed to backend APIs, React dashboards, automation workflows, monitoring visibility, and platform reliability features that supported ticketing, endpoint monitoring, alerts, integrations, and service delivery automation. Built with C#/.NET Core, React, TypeScript, PostgreSQL, Redis, Docker, Kubernetes, RabbitMQ, and CI/CD pipelines.",
+        tools: ['C#/.NET Core', 'ASP.NET Core', 'Node.js', 'REST APIs', 'React', 'TypeScript', 'Tailwind CSS', 'PostgreSQL', 'Redis', 'Docker', 'Kubernetes', 'RabbitMQ', 'AWS', 'CI/CD', 'Prometheus', 'Grafana', 'ELK Stack'],
+        role: 'Full-Stack & Platform Engineer',
         code: '',
         demo: '',
         images: [
-            '/image/png/project1-1.png',
-            '/image/png/project1-2.png',
-            '/image/png/project1-3.png'
+            '/image/projects/project1-1.png',
+            '/image/projects/project1-2.png',
+            '/image/projects/project1-3.png'
         ],
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
+        name: 'Enterprise Operations & Data Processing Platform',
+        description: 'Worked on a large-scale enterprise platform focused on operational automation, analytics processing, workflow integrations, and cloud-native backend infrastructure for international enterprise clients. The platform supported high-volume business operations, real-time reporting, distributed data processing, and secure API integrations across multiple internal and external systems. The system was designed to handle large-scale workloads with high reliability, observability, and automated deployment workflows.',
+        tools: ['C#', '.NET Core', "Go", "Python", "REST APIs", "Microservices", "Docker", "Kubernetes", "CI/CD Pipelines", "GitHub Actions", "Jenkins", "Terraform", "RabbitMQ", "Apache Kafka", "Event-Driven Architecture"],
+        role: 'Software Engineer',
         code: '',
         demo: '',
         images: [
-            '/image/png/project2-1.png',
-            '/image/png/project2-2.png',
-            '/image/png/project2-3.png'
+            '/image/projects/project2-1.png',
+            '/image/projects/project2-2.png',
+            '/image/projects/project2-3.png'
         ],
     },
     {
         id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
+        name: 'Vendor & Contract Lifecycle Management Platform',
+        description: 'Worked as a Senior Backend & Platform Engineer on a secure enterprise SaaS platform for vendor management, procurement workflows, contract lifecycle automation, and compliance operations. Contributed to scalable backend APIs, distributed integration services, CI/CD automation, Kubernetes infrastructure, and observability systems supporting multi-tenant enterprise operations and millions of workflow transactions. Built using C#/.NET Core, Go, PostgreSQL, RabbitMQ, Redis, Docker, Kubernetes, Terraform, and AWS.',
+        tools: ['C#', '.NET Core', 'ASP.NET Core', 'Go', 'Python', 'Microservices Architecture', 'AWS', 'Azure', 'Docker', 'Kubernetes', 'Terraform', 'CI/CD Automation', 'API Integrations', 'Event-Driven Architecture', 'RabbitMQ', 'Redis'],
         code: '',
-        role: 'Full Stack Developer',
+        role: 'Senior Backend & DevOps Engineer',
         demo: '',
         images: [
-            '/image/png/project3-1.png',
-            '/image/png/project3-2.png',
-            '/image/png/project3-3.png'
+            '/image/projects/project3-1.png',
+            '/image/projects/project3-2.png',
+            '/image/projects/project3-3.png'
         ],
     },
     {
         id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
+        name: 'Real-Time ML Feature Platform & Data Infrastructure',
+        description: "Worked as a Senior Platform Engineer on a large-scale ML feature platform supporting real-time data processing, feature orchestration, and low-latency inference systems. Contributed to distributed backend services, Kubernetes infrastructure, streaming pipelines, observability systems, and CI/CD automation handling 50M+ daily feature events across cloud-native production environments. Built using Go, Python, C#/.NET Core, Kafka, RabbitMQ, Kubernetes, Terraform, PostgreSQL, Redis, DynamoDB, and AWS.",
+        tools: ['Go', 'Python', 'C#/.NET Core', 'REST APIs', "Distributed Systems", 'AWS', 'Azure', 'GCP', 'Docker', 'Kubernetes', 'Terraform', 'CI/CD Automation', 'Apache Kafka', 'RabbitMQ', 'PostgreSQL', 'Redis', 'DynamoDB'],
         code: '',
         demo: '',
-        role: 'Full Stack Developer',
+        role: 'Senior Platform Engineer',
         images: [
-            '/image/png/project4-1.png',
-            '/image/png/project4-2.png',
-            '/image/png/project4-3.png'
+            '/image/projects/project4-1.png',
+            '/image/projects/project4-2.png',
+            '/image/projects/project4-3.png'
         ],
     }
 ];
