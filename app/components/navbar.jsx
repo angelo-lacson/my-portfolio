@@ -20,15 +20,40 @@ function Navbar() {
       }
     };
 
+    const handleScroll = () => {
+      const sections = ['about', 'experience', 'skills', 'education', 'projects'];
+      let currentSection = null;
+
+      // Check which section is in the viewport
+      sections.forEach(sectionId => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          const rect = element.getBoundingClientRect();
+          // If section is in the upper half of viewport, mark it as current
+          if (rect.top <= window.innerHeight / 2 && rect.bottom >= 0) {
+            currentSection = sectionId;
+          }
+        }
+      });
+
+      // Update URL hash if a section is in view
+      if (currentSection && window.location.hash !== `#${currentSection}`) {
+        window.history.replaceState(null, '', `#${currentSection}`);
+      }
+    };
+
     const links = document.querySelectorAll('a[href^="/#"]');
     links.forEach(link => {
       link.addEventListener('click', handleSmoothScroll);
     });
 
+    window.addEventListener('scroll', handleScroll);
+
     return () => {
       links.forEach(link => {
         link.removeEventListener('click', handleSmoothScroll);
       });
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
   return (
