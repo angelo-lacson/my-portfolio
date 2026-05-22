@@ -114,15 +114,15 @@ function HeroSection() {
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">skills:</span>
                 <span className="text-gray-400">{`[`}</span><br/>
-                <span className="text-amber-300">'C#/.NET Backend Engineering',</span><br/>
-                <span className="text-amber-300">'Cloud-Native Platform Engineering',</span><br/>
-                <span className="text-amber-300">'Kubernetes & Docker Orchestration',</span><br/>
-                <span className="text-amber-300">'AWS Infrastructure & DevOps',</span><br/>
-                <span className="text-amber-300">'CI/CD Automation & Release Engineering',</span><br/>
-                <span className="text-amber-300">'Distributed Systems & Microservices',</span><br/>
-                <span className="text-amber-300">'PostgreSQL & Database Optimization',</span><br/>
-                <span className="text-amber-300">'Event-Driven Architecture (RabbitMQ, Kafka)',</span><br/>
-                <span className="text-amber-300">'Observability, Reliability & Incident Response'</span>
+                <span className="text-amber-300">'Python (FastAPI, Django, Flask)',</span><br/>
+                <span className="text-amber-300">'JavaScript / TypeScript (React, Node.js, NestJS)',</span><br/>
+                <span className="text-amber-300">'RESTful & GraphQL API Development',</span><br/>
+                <span className="text-amber-300">'PostgreSQL, MySQL & NoSQL Databases',</span><br/>
+                <span className="text-amber-300">'AWS Cloud Infrastructure & Deployment',</span><br/>
+                <span className="text-amber-300">'Docker & Kubernetes Containerization',</span><br/>
+                <span className="text-amber-300">'CI/CD Pipelines (GitHub Actions, Jenkins)',</span><br/>
+                <span className="text-amber-300">'Microservices & Event-Driven Architecture',</span><br/>
+                <span className="text-amber-300">'JWT / OAuth2 Authentication & Secure API Design'</span>
             
                 <span className="text-gray-400">{"],"}</span>
               </div>
